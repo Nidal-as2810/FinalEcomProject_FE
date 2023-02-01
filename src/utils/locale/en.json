@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "search": "search",
+    "signup": "sign up",
+    "signin": "sign in",
+    "profile": "edit profile",
+    "cart": "cart",
+    "orders": "my orders",
+    "messages": "my messages",
+    "favourite": "favourite items",
+    "items": "items"
+  },
+  "signin": {
+    "signin": "sign in",
+    "username": "username",
+    "password": "password",
+    "submit": "submit",
+    "need_an_account": "need an account?",
+    "signup": "sign up"
+  },
+  "signup": {
+    "signin": "sign in",
+    "username": "username",
+    "password": "password",
+    "confirm": "confirm password",
+    "submit": "submit",
+    "already_registered": "already_registered?",
+    "signup": "sign up",
+    "password_instructions": "8 to 24 characters.@ Must include should contain at least one digit .@ Should contain at least one lower case.@ Should contain at least one upper case.",
+    "username_instructions": "4 to 24 characters.@Must begin with a letter.@Letters, numbers, underscores, hyphens allowed."
+  },
+  "profile": {
+    "profile": "profile",
+    "firstname": "fist name",
+    "lastname": "last name",
+    "email": "email",
+    "state": "county / state",
+    "city": "city",
+    "phone": "phone",
+    "address": "address",
+    "save": "save"
+  },
+  "cart": {
+    "title": "shopping cart",
+    "total_items": "total items",
+    "subtotal": "subtotal",
+    "shipping": "shipping fee",
+    "total": "total",
+    "checkout": "checkout"
+  },
+  "orders": {
+    "total_items": "total orders",
+    "subtotal": "subtotal",
+    "state": "county / state",
+    "city": "city",
+    "phone": "phone",
+    "address": "address"
+  },
+  "item": {
+    "price": "price",
+    "qty": "quantity",
+    "buy": "add to cart"
+  }
+}

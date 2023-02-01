@@ -1,0 +1,52 @@
+.cart {
+  width: 95%;
+  padding: 15px;
+  margin: 0 auto;
+  height: calc(100vh - 150px);
+  background-color: #e8e8e899;
+  box-shadow: 0 2px 7px #55555520, inset 0 -3px 7px #555555;
+
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 70% 29%;
+  gap: 1%;
+}
+.shopping,
+.decision,
+.shoppingSection,
+.checkout {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.shoppingSection {
+  background-color: #e8e8e8;
+}
+
+.title {
+  margin: 15px 0;
+  font-size: 2em;
+}
+.items {
+  width: 100%;
+  height: calc(100vh - 275px);
+  padding: 5px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
+.decision {
+  height: 97%;
+  margin-top: 1%;
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+.suggestion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

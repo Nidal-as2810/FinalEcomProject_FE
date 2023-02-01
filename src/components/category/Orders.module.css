@@ -1,0 +1,110 @@
+.orders {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  height: calc(100vh - 150px);
+  background-color: #e8e8e8;
+  box-shadow: 0 2px 7px #55555520, inset 0 -3px 7px #555555;
+  overflow: hidden;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  gap: 1%;
+}
+.sidenav {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+
+.searchComponent {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+  display: none;
+}
+
+.searchLabel {
+  position: absolute;
+}
+
+.searchInput {
+  width: 100%;
+  font-size: 1.3em;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+  border: 2px solid #fff;
+  width: 100%;
+  z-index: 1;
+  outline: none;
+  background-color: #e8e8e8;
+}
+
+.ordersList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.orderCard {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 75px;
+
+  color: #333;
+  font-size: 1.1em;
+  border-bottom: 1px solid #55555520;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.orderCard:hover {
+  background-color: #c0c0c060;
+}
+.list {
+  height: 100%;
+  width: 79%;
+}
+
+.orderHeader {
+  width: 100%;
+  height: 18%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.4em;
+  border-bottom: 3px solid #55555540;
+}
+
+.headerItem {
+  width: 30%;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.orderItems {
+  height: 82%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-evenly;
+  overflow-y: auto;
+}

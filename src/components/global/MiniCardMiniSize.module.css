@@ -1,0 +1,130 @@
+.miniCard {
+  box-shadow: 0 2px 7px #55555520, inset 0 -3px 7px #555555;
+  padding: 15px;
+  width: 100%;
+  max-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.zoom {
+  position: absolute;
+  background-color: #33333390;
+  width: 100%;
+  height: calc(100vh - 150px);
+  left: 0;
+  top: 150px;
+  z-index: 20;
+}
+
+.zoomedImage {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 2px 7px #55555520, inset 0 -3px 7px #555555;
+  position: relative;
+}
+
+.close {
+  font-size: 2em;
+  color: #ff4d23;
+  position: absolute;
+  right: -50px;
+  top: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.close:hover {
+  color: #f87557;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.details {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.title {
+  font-size: 1.6em;
+  letter-spacing: 1.5px;
+}
+.detail {
+  font-size: 0.7em;
+  /* letter-spacing: .8px; */
+  overflow: hidden;
+}
+.category {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #ff4d23;
+}
+.actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.quantity {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 2px 3px;
+  font-weight: 500;
+  margin-right: 10px;
+  border: none;
+  background-color: #e8e8e8;
+  border-bottom: 1px solid #555555;
+}
+
+.quantity::-webkit-inner-spin-button,
+.quantity::-webkit-outer-spin-button {
+  opacity: 1;
+  border-radius: 2px;
+  color: #ff4d23;
+  background-color: #ff4d23;
+}
+.icon {
+  color: #ff4d23;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.icon:hover {
+  color: #f87557;
+  scale: 1.1;
+}
+
+.price {
+  width: 24%;
+  font-size: 1.3em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 7px #55555520, inset 0 -3px 7px #555555;
+  border-radius: 5px;
+}
+
+.mini {
+  display: block;
+}
+
+.norm {
+  display: none;
+}

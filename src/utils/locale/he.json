@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "search": "חיפוש",
+    "signup": "הרשמה",
+    "signin": "כניסה",
+    "profile": "עריכת פרופיל",
+    "cart": "סל",
+    "orders": "הזמנות",
+    "messages": "הודעות",
+    "favourite": "מועדפים",
+    "items": "פריטים"
+  },
+  "signin": {
+    "signin": "כניסה",
+    "username": "שם משתמש",
+    "password": "סיסמה",
+    "submit": "כניסה",
+    "need_an_account": "עוד לא נרשמת?",
+    "signup": "הרשמה"
+  },
+  "signup": {
+    "signin": "כניסה",
+    "username": "שם משתמש",
+    "password": "סיסמה",
+    "confirm": "אישור סיסמה",
+    "submit": "הרשמה",
+    "already_registered": "נרשמת כבר?",
+    "signup": "הרשמה",
+    "password_instructions": "8 to 24 characters.@ Must include should contain at least one digit .@ Should contain at least one lower case.@ Should contain at least one upper case.",
+    "username_instructions": "4 to 24 characters.@Must begin with a letter.@Letters, numbers, underscores, hyphens allowed."
+  },
+  "profile": {
+    "profile": "פרופיל",
+    "firstname": "שם פרטי",
+    "lastname": "שם משפחה",
+    "email": "מייל",
+    "state": "מדינה",
+    "city": "עיר",
+    "phone": "טלפון",
+    "address": "כתובת",
+    "save": "שמור"
+  },
+  "cart": {
+    "title": "עגלת קניות",
+    "total_items": "סך הפריטים",
+    "subtotal": "סכום",
+    "shipping": "דמי משלוח",
+    "total": "לשתלום",
+    "checkout": "לשתלום"
+  },
+  "orders": {
+    "title": "עגלת קניות",
+    "total_items": "סך הפריטים",
+    "state": "מדינה",
+    "city": "עיר",
+    "phone": "טלפון",
+    "address": "כתובת"
+  },
+  "item": {
+    "price": "מחיר",
+    "qty": "כמות",
+    "buy": "הוסף לסל"
+  }
+}
